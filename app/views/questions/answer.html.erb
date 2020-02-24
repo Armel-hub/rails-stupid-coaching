@@ -1,0 +1,13 @@
+<h1>Stupid Coaching</h1>
+<!-- <p>Hello There - you </p>
+
+<p>I don't care, get dressed and go to work! - Your coach </p> -->
+
+<p><%= @question_ask %> - you </p>
+
+<p><%= @question_answer %> - Your coach </p>
+
+<form action="/questions" method="get">
+  <input type="text" name="question" placeholder="hello">
+  <input type="submit">
+</form>
